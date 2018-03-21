@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <!-- display two Button's and a FrameLayout to replace the Fragment's  -->
+
+    <Button
+        android:id="@+id/FirstFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FirstFragment" />
+
+    <Button
+        android:id="@+id/SecondFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SecondFragment" />
+
+    <FrameLayout
+        android:id="@+id/FrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+</LinearLayout>
